@@ -1,0 +1,26 @@
+.loginDiv {
+  padding-top: 5rem;
+}
+.loginCard {
+  width: 50%;
+  margin: auto;
+  margin-top: 5rem !important;
+  padding: 2rem;
+}
+.loginField {
+  margin: 1rem 0 !important;
+}
+.logDiv {
+  padding-top: 2rem;
+}
+.loginBtn {
+  padding: 0.5rem;
+  background-color: green;
+  color: white;
+  border: none;
+}
+@media (max-width: 995px) {
+  .loginCard {
+    width: 100%;
+  }
+}

@@ -1,0 +1,89 @@
+.dashboardDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+.dashboardContainer {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dashboardPara {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dashboardCard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 5rem; */
+}
+.beniDiv {
+  padding: 0.5rem;
+}
+.submitBtn {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bulkOrder {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bulkDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bulkClass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bulkClass {
+  margin-top: 5rem;
+  width: 20rem;
+  height: 15rem;
+}
+.wd {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.wB {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+}
+.dashboardCards {
+  padding: 2rem;
+  height: 15rem;
+  margin: auto;
+}
+@media (max-width: 995px) {
+  .dashboardCard {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
